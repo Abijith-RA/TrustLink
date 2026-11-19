@@ -7,7 +7,9 @@ authors = [
     { name = "Abijith R A", email = "Abijithra2004@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "pandas>=3.1.1",
+]
 
 [project.scripts]
 trustlink = "trustlink:main"
